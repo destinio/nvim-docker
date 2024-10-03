@@ -24,6 +24,13 @@ make start
 # run to execute bash in the container
 make run
 
+make tutor # to start the tutor in nvim
+make help # to start help in nvim
+```
+
+```bash
+# Command in nvim
+
 # In nvim hit : to enter command mode and run Tutor
 # Let the learning begin :)
 :Tutor

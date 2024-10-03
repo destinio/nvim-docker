@@ -36,6 +36,14 @@ clean:
 	docker system prune -af
 	docker volume prune -f
 
+# Start Neovim and run :Tutor
+tutor:
+	$(DOCKER_COMPOSE) exec neovim nvim -c ":Tutor"
+
+# Start Neovim and run :help
+help:
+	$(DOCKER_COMPOSE) exec neovim nvim -c ":help"
+
 # Uninstall by stopping containers and removing the image
 uninstall: down
 	docker rmi $(IMAGE_NAME)
