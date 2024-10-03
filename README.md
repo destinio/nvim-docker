@@ -2,8 +2,8 @@ https://neovim.io/
 
 # Neovim Docker with node and php
 
-[:help](https://neovim.io/doc/user/index.html)
-[motions](https://neovim.io/doc/user/motion.html)
+- [:help](https://neovim.io/doc/user/index.html)
+- [motions](https://neovim.io/doc/user/motion.html)
 
 ## Install
 
