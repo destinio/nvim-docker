@@ -17,7 +17,17 @@ make up
 
 ## Usage
 
-`make run` - to start the container in `/root` directory using bash. run `nvim .` to edit home directory files.
+```bash
+# run to start the container
+make start
+
+# run to execute bash in the container
+make run
+```
+
+- `make run` - to start the container in `/root` directory using bash. 
+
+- Run `nvim .` to edit home directory files.
 
 - Starter file have been moved to root user directory at `/root`
 ```bash
@@ -35,13 +45,6 @@ make up
 
 - `.config` - houses the configuration files for Neovim
 - `code` - houses smaple code file to play with code files
-
-```bash
-# run to start the container
-make start
-
-make run
-```
 
 ## Resources
 
