@@ -23,6 +23,10 @@ make start
 
 # run to execute bash in the container
 make run
+
+# In nvim hit : to enter command mode and run Tutor
+# Let the learning begin :)
+:Tutor
 ```
 
 - `make run` - to start the container in `/root` directory using bash. 
